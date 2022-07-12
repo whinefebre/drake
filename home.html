@@ -15,7 +15,7 @@
     <header class="header-area">
         <div class="header-container">
             <div class="site-logo">
-                <a href=""><img src="images/logo.png" alt=""></a>
+                <a href="home.html"><img src="images/logo.png" alt=""></a>
             </div>
             <div class="mobile-nav">
                 <i class="fas fa-bars"></i>
@@ -23,7 +23,7 @@
             <div class="site-nav-menu">
                 <ul class="primary-menu">
                     <li><a href="home.html" class="active">Home</a></li>
-                    <li><a href="about.html">About</a></li>
+                    <li><a href="#">About</a></li>
                     <li><a href="portfolio.html">Portfolio</a></li>
                     <li><a href="team.html">Teams</a></li>
                     <li><a href="contact.html">Contact Us</a></li>
@@ -37,47 +37,35 @@
             </div>
         </div>
     </header>
-    <img class="banner" src="images/banner.png" width="100%" alt="banner">
-
     <div class="container">
         <div class="con-1">
-            <h2 class="info">Our Contact Info</h2>
+            <h2 class="info">Amazing Transformation</h2>
             <p class="desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua </p>
         </div>
-        <div class="con-2">
-            <div class="column" >
-                <h3 class="tit">Our Location</h3>
-                <p>10 xvz st, abc. alexandrio,
-                    <br>
-                    egypt</p>
-              </div>
-              <div class="column">
-                <h3 class="tit">Phones</h3>
-                <p>+2020123456789</p>
-                <p>+2020123456789</p>
-
-              </div>
-              <div class="column">
-                <h3 class="tit">Emails</h3>
-                <p>example@support.com</p>
-                <p>example@support.com</p>
-
-              </div>
-              <div class="column">
-                <h3 class="tit">Website</h3>
-                <p>www.yousite.com</p>
-              </div>
-        </div>
-                <div class="map-background">
-                    <div class="map">
-                        <div class="gmap_canvas">
-                            <iframe width="700" height="500" id="gmap_canvas" src="https://maps.google.com/maps?q=Alexandra%20Governorate%20of%20Egypt&t=&z=9&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
-                            </div>
-                </div>
+        <div class='slider-container'>
+            <div class='img background-img'>
+                <p class="slider-after">AFTER</p>
             </div>
+            <div class='img foreground-img'>
+                <p class="slider-before">BEFORE</p>
+            </div>
+            <input type="range" min="1" max="100" value="50" class="slider" name='slider' id="slider">
+          </div>
+        <div class="subscribe">
+            <h2 class="info"> Subscribe To Get Updates</h2>
+            <p class="desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua </p>
+            
+            <div class="subscribe-form">
+                <input type="email" name="contact[email]" id="subscribe-email" class="input-group__field subscribe__input" value="" placeholder="Email Address" aria-label="Enter your email here*" aria-required="true" required="" autocorrect="off" autocapitalize="off">
+                <span class="subscribe-group__btn">
+                  <button type="submit" class="btn subscribe__submit" name="commit">
+                    <span class="subscribe__submit-text--large">Subscribe</span>
+                  </button>
+                </span>
+              </div>
         </div>
+    </div>
 
-        
     <footer>
         <div class="site-footer">
             <div class="col">
@@ -127,9 +115,8 @@
                 </ul>
             </div>
         </div>
-        
     </footer>
-
+    
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script type="text/javascript" src="index.js"></script>
 </body>
